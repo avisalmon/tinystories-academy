@@ -1,0 +1,25 @@
+# Transformers from the Ground Up: Building TinyStories
+# Dependencies for the course notebooks. CPU is fine throughout.
+
+# Core deep learning
+torch>=2.0.0              # PyTorch, our main framework (CPU build is fine)
+numpy>=1.24.0             # Numerical operations
+
+# Jupyter environment
+jupyter>=1.0.0            # Notebook support
+ipywidgets>=8.0.0         # Interactive widgets in notebooks
+
+# Visualization
+matplotlib>=3.7.0         # Plotting losses and attention maps
+seaborn>=0.12.0           # Prettier statistical plots
+
+# Data and text processing
+datasets>=2.14.0          # HuggingFace datasets
+tokenizers>=0.15.0        # HuggingFace tokenizers (fast BPE training)
+regex>=2023.0             # Better regex for tokenization
+
+# Training utilities
+tqdm>=4.65.0              # Progress bars
+
+# Optional but helpful
+einops>=0.6.0             # Readable tensor operations
