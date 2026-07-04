@@ -3,6 +3,7 @@
 
 # Core deep learning
 torch>=2.0.0              # PyTorch, our main framework (CPU build is fine)
+torchvision>=0.15.0       # Datasets (MNIST) and image transforms
 numpy>=1.24.0             # Numerical operations
 
 # Jupyter environment

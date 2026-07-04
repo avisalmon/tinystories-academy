@@ -16,3 +16,7 @@ models/
 # OS
 .DS_Store
 Thumbs.db
+
+# Downloaded datasets (MNIST etc.), fetched on demand
+data/
+notebooks/data/
